@@ -1,0 +1,1313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.txt{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    font-size: 20px;
+}
+li:hover{
+    color: orange;
+}
+#banner{
+    background: url(images/banner-bg.png);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.banner-txt h1{
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 70px;
+    font-weight: normal;
+    padding-top: 110PX;
+    letter-spacing: 2PX;
+}
+.banner-txt h2{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    color: white;
+    padding-top: 10PX;
+}
+.banner-txt p{
+    font-size: 18px;
+    color: white;
+    padding-top: 7PX;
+    line-height: 27PX;
+    word-spacing: 5PX;
+   font-family: "Google Sans Flex", sans-serif;
+}
+.banner-txt button{
+    color: white;
+    background-color: black;
+    padding: 16PX 30PX;
+    font-size: 15PX;
+    margin-top: 25PX;
+
+}
+.banner-txt{
+    margin-left: 210PX;
+    
+}
+.banner-txt button:hover{
+    background-color: orange;
+    border: none;
+}
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.abo{
+    display: flex;
+    margin-top: 80px;
+
+}
+.abo-txt{
+    width: 50%;
+}
+.abo-img{
+    width: 50%;
+}
+.abo-img img{
+    width: 100%;
+}
+.abo-txt h2{
+    color: orange;
+    font-size: 40px;
+    margin-top: 160px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+.abo-txt p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+
+}
+.abo-txt button{
+    padding: 10px 30px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+.abo-txt button:hover{
+    background-color: orange;
+    border: none;
+}
+.gal-txt h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 85px;
+    padding-bottom: 30px;
+    color: orange;
+
+}
+.gal-txt p{
+    text-align: center;
+    font-size: 19px;
+    gap: 2px;
+    padding-bottom: 30px;
+    word-spacing: 2px;
+}
+.us{
+    display: flex;
+    gap: 30px;
+
+}
+.us-img img{
+    width: 100%;
+   position: relative;
+    transition: .3s;
+  
+}
+.us-img:hover img{
+    opacity: .4;
+}
+.us-img i{
+    position: absolute;
+    z-index: 3;
+  margin-left: -200px;
+  margin-top: 180px;
+  font-size: 50px;
+  opacity: 0;
+  transition: .3s;
+}
+.us-img:hover i{
+    opacity: 1;
+}
+.us-img i:hover{
+    color:orange;
+}
+.so{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.so-img img{
+    width: 360px; 
+    height: 36vh; 
+    position: relative;
+    transition: .3s;
+  
+}
+.so-img:hover img{
+    opacity: .4;
+}
+.so-img i{
+    position: absolute;
+    z-index: 3;
+  margin-left: -200px;
+  margin-top: 110px;
+  font-size: 50px;
+  opacity: 0;
+  transition: .3s;
+}
+.so-img:hover i{
+    opacity: 1;
+}
+.so-img i:hover{
+    color:orange;
+}
+.to{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.to-img img{
+    width: 360px;
+    height: 40vh;
+    position: relative;
+    transition: .3s;
+
+}
+.to-img:hover img{
+    opacity: .4;
+}
+.to-img i{
+    position: absolute;
+    z-index: 3;
+  margin-left: -200px;
+  margin-top: 120px;
+  font-size: 50px;
+  opacity: 0;
+  transition: .3s;
+}
+.to-img:hover i{
+    opacity: 1;
+}
+.to-img i:hover{
+    color:orange;
+}
+.vv button{
+    color: white;
+    background-color: black;
+ 
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.vv{
+    text-align: center;
+}
+.vv button:hover{
+    background-color: orange;
+    border: none;
+}
+.banner1-txt{
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
+.banner1-txt h2{
+    font-size: 40px;
+}
+.banner1-txt p{
+    padding-top: 20px;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+  
+
+#services{
+    background-image: url(images/services-bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+}
+.rr-txt{
+    margin-top: 30px;
+    background-color: orange;
+     width: 48vh;
+    height: 35vh;    
+    align-items: center;
+    color: white;
+    transition: .3s;
+}
+.rr-txt:hover{
+    height: 47vh;
+    background-color: white;
+    color: black;
+
+}
+.rr-txt img{
+    padding: 40px 0px 0px 151px;
+    width: 50px;
+    height: 50px;
+}
+.rr-txt h2{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    transition: .3s;
+}
+.rr-txt:hover h2{
+    color: black;
+}
+.rr-txt p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    transition: .3s;
+}
+.rr-txt:hover p{
+    color: black;
+}
+.rr-txt button{
+    background-color: black;
+    font-size: 20px;    
+    color: white;
+    margin: 43px 0px 0px 95px;
+    padding: 10px 40px;
+    opacity: 0; 
+    transition: .3s;  
+}
+.rr-txt:hover button{
+    opacity: 1;  
+}
+.rrmn{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+.tee{
+    margin-top: 100px;
+}
+.tee-txt h2{
+    font-size: 45px;
+    color: orange;
+    padding-bottom: 20px;
+
+}
+.tee-txt p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.tee-txt2{
+    position: relative;
+    margin-top: 35px;
+}
+.tee-txt2::before{
+   position: absolute;
+   content: "";
+   border-left: 4px solid black;
+   border-top: 4px solid black;
+   width: 100px;
+   height: 20vh;
+   top: 20px;
+}
+.tee-txt2::after{
+   position: absolute;
+   content: "";
+   border-bottom: 4px solid black;
+   border-right: 4px solid black;
+   width: 100px;
+   height: 20vh;
+   top: 20px;
+   right: 0;
+}
+.tee-txt2 h3{
+    color: orange;
+    font-size: 30px;
+    padding-left: 130px;
+    padding-top: 7px;
+
+}
+.tee-txt2 p{
+    padding-left: 55px;
+    padding-top: 16px;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+#rom{
+    margin-top: 180px;
+}
+#rom h2{
+    color: orange;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.top-img{
+    background: url(images/img-9.png);
+    width: 49%;
+    height: 70vh;
+}
+form input{
+    padding: 15px 290px 20px 50px;
+    margin: 20px 0px 0px 56px;
+    font-size: 20px;
+    border-radius: 100px;
+    border-style: none;
+}
+form{
+    margin-top: 35px;
+}
+
+.top-img button{
+    background-color: orange;
+    color: white;
+    padding: 13px 55px 13px 55px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 265px;
+    border-style: none;
+    transition: 0.30;
+}
+.top-img button:hover{
+    background-color: white;
+    color: black;
+}
+
+.top{
+    display: flex;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 40px 0px 40px 0px;
+}
+.meow{
+    display: flex;
+    list-style: none;
+}
+.meow2-txt{
+    margin-right: 250px;
+    margin-left: 60px;   
+}
+.meow2-txt h2{
+    padding-bottom: 23px;
+}
+.meow-txt h2{
+    padding-bottom: 25px;
+
+}
+.meow-txt p{
+    line-height: 25px;
+
+}
+.meow3-txt h2{
+    padding-bottom: 20px;
+}
+.meow4-txt h2{
+    padding-bottom: 25px;
+}
+.meow4-txt{
+    margin-left: 70px;
+}
+.meow4-txt li{
+    margin-top: 3px;
+    word-spacing: 2px;
+    
+}
+.meow2-txt li{
+    margin-top: 4px;
+}
+.meow3-txt p{
+    line-height: 25px;
+}
+.ft input{
+    height: 100px;
+    border-radius: 30px;
+}
+.rrr-txt{
+    font-size: 13px;
+    
+}
+#etr{
+    margin: 20px 0px 20px 0px;
+    padding-left: 510px;
+}
+.rrr-txt a:hover{
+    color: orange;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.rrr-txt a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   RESPONSIVE CSS
+   ========================================================= */
+
+/* ---------- GLOBAL RESPONSIVE FIX ---------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+
+
+
+.us-img,
+.so-img,
+.to-img {
+    position: relative;
+}
+
+
+.us-img i,
+.so-img i,
+.to-img i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 50px;
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+}
+
+.us-img:hover i,
+.so-img:hover i,
+.to-img:hover i {
+    opacity: 1;
+}
+
+/* =========================================================
+   LARGE DESKTOP
+   1200px+
+   ========================================================= */
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
+}
+
+
+/* =========================================================
+   LAPTOP
+   992px - 1199px
+   ========================================================= */
+
+@media (max-width: 1199px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .banner-txt {
+        margin-left: 80px;
+    }
+
+    .banner-txt h1 {
+        font-size: 60px;
+    }
+
+    .banner-txt h2 {
+        font-size: 65px;
+    }
+
+    .rrmn {
+        gap: 20px;
+    }
+
+    .rr-txt {
+        width: 31%;
+    }
+
+    .rr-txt img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-left: 0;
+    }
+
+    .rr-txt button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .meow2-txt {
+        margin-right: 100px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991px
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+
+    /* ---------- HEADER ---------- */
+
+    .txt {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .txt ul {
+        gap: 12px;
+    }
+
+    .txt li {
+        font-size: 16px;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+
+
+    /* ---------- BANNER ---------- */
+
+    #banner {
+        height: 75vh;
+        min-height: 550px;
+    }
+
+    .banner-txt {
+        margin-left: 30px;
+    }
+
+    .banner-txt h1 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    .banner-txt h2 {
+        font-size: 55px;
+    }
+
+    .banner-txt p {
+        font-size: 16px;
+    }
+
+
+    /* ---------- ABOUT ---------- */
+
+    .abo {
+        align-items: center;
+    }
+
+    .abo-txt h2 {
+        margin-top: 0;
+        font-size: 35px;
+    }
+
+    .abo-txt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    /* ---------- GALLERY ---------- */
+
+    .us,
+    .so,
+    .to {
+        gap: 15px;
+    }
+
+    .so-img img,
+    .to-img img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .us-img i,
+    .so-img i,
+    .to-img i {
+        margin-left: -50%;
+        margin-top: 100px;
+    }
+
+
+    /* ---------- SERVICES ---------- */
+
+    #services {
+        height: auto;
+        min-height: 800px;
+        padding-bottom: 70px;
+    }
+
+    .rrmn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rr-txt {
+        width: 31%;
+        min-height: 300px;
+        height: auto;
+    }
+
+    .rr-txt:hover {
+        height: auto;
+        min-height: 360px;
+    }
+
+
+    /* ---------- TESTIMONIAL ---------- */
+
+    .tee-txt2 p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    /* ---------- CONTACT ---------- */
+
+    #rom {
+        margin-top: 100px;
+    }
+
+    #rom h2 {
+        padding-bottom: 60px;
+    }
+
+    .top {
+        gap: 20px;
+    }
+
+    .top-img,
+    .mp {
+        width: 50%;
+    }
+
+    .top-img {
+        height: auto;
+        min-height: 550px;
+    }
+
+    form input {
+        width: calc(100% - 40px);
+        padding: 15px 25px;
+        margin-left: 20px;
+    }
+
+    .top-img button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .mp iframe {
+        width: 100%;
+        height: 550px;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .meow {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .meow > div {
+        width: calc(50% - 20px);
+    }
+
+    .meow2-txt {
+        margin: 0;
+    }
+
+    .meow4-txt {
+        margin-left: 0;
+    }
+
+    #etr {
+        padding-left: 0;
+        text-align: center;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   576px - 767px
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+
+    /* ---------- HEADER ---------- */
+
+    .txt {
+        flex-direction: column;
+        gap: 20px;
+        padding: 18px 15px;
+    }
+
+    .txt ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 15px;
+    }
+
+    .txt li {
+        font-size: 15px;
+    }
+
+    .txt .fa-search {
+        font-size: 20px !important;
+    }
+
+
+    /* ---------- BANNER ---------- */
+
+    #banner {
+        height: auto;
+        min-height: 600px;
+        background-position: center;
+    }
+
+    .banner-txt {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .banner-txt h1 {
+        font-size: 42px;
+        padding-top: 100px;
+    }
+
+    .banner-txt h2 {
+        font-size: 48px;
+    }
+
+    .banner-txt p {
+        font-size: 15px;
+        line-height: 24px;
+        word-spacing: 2px;
+    }
+
+    .banner-txt p br {
+        display: none;
+    }
+
+
+    /* ---------- ABOUT ---------- */
+
+    .abo {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .abo-txt,
+    .abo-img {
+        width: 100%;
+    }
+
+    .abo-txt {
+        margin-bottom: 40px;
+    }
+
+    .abo-txt h2 {
+        margin-top: 0;
+        font-size: 35px;
+    }
+
+    .abo-txt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .abo-txt p br {
+        display: none;
+    }
+
+    .abo-img img {
+        width: 100%;
+    }
+
+
+    /* ---------- GALLERY ---------- */
+
+    .gal-txt h2 {
+        font-size: 35px;
+        padding-top: 60px;
+    }
+
+    .gal-txt p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .gal-txt p br {
+        display: none;
+    }
+
+    .us,
+    .so,
+    .to {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .us-img,
+    .so-img,
+    .to-img {
+        width: 100%;
+    }
+
+    .us-img img,
+    .so-img img,
+    .to-img img {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+        object-fit: cover;
+    }
+
+    .us-img i,
+    .so-img i,
+    .to-img i {
+        margin-left: -55px;
+        margin-top: 110px;
+        font-size: 40px;
+    }
+
+    .to {
+        margin-bottom: 35px;
+    }
+
+
+    /* ---------- SERVICES ---------- */
+
+    #services {
+        min-height: auto;
+        padding-bottom: 60px;
+    }
+
+    .banner1-txt {
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner1-txt h2 {
+        font-size: 35px;
+    }
+
+    .banner1-txt p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .rrmn {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .rr-txt {
+        width: 100%;
+        max-width: 380px;
+        min-height: 330px;
+    }
+
+    .rr-txt:hover {
+        min-height: 380px;
+    }
+
+    .rr-txt img {
+        padding-top: 40px;
+    }
+
+
+    /* ---------- TESTIMONIAL ---------- */
+
+    .tee {
+        margin-top: 70px;
+    }
+
+    .tee-txt h2 {
+        font-size: 38px;
+    }
+
+    .tee-txt > p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .tee-txt2 {
+        padding: 20px;
+    }
+
+    .tee-txt2::before,
+    .tee-txt2::after {
+        width: 50px;
+        height: 120px;
+    }
+
+    .tee-txt2 h3 {
+        padding-left: 70px;
+        font-size: 25px;
+    }
+
+    .tee-txt2 p {
+        padding: 15px 20px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .tee-txt2 p br {
+        display: none;
+    }
+
+
+    /* ---------- CONTACT ---------- */
+
+    #rom {
+        margin-top: 80px;
+    }
+
+    #rom h2 {
+        font-size: 38px;
+        padding-bottom: 50px;
+    }
+
+    .top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .top-img,
+    .mp {
+        width: 100%;
+    }
+
+    .top-img {
+        min-height: 520px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    form input {
+        width: calc(100% - 40px);
+        margin: 15px 20px 0;
+        padding: 14px 25px;
+        font-size: 16px;
+    }
+
+    .ft input {
+        height: 100px;
+    }
+
+    .top-img button {
+        margin: 15px auto 0;
+        display: block;
+        padding: 12px 45px;
+    }
+
+    .mp iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    footer {
+        padding: 50px 0;
+    }
+
+    .meow {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .meow > div {
+        width: 100%;
+    }
+
+    .meow2-txt,
+    .meow4-txt {
+        margin: 0;
+    }
+
+    .meow-txt h2,
+    .meow2-txt h2,
+    .meow3-txt h2,
+    .meow4-txt h2 {
+        padding-bottom: 15px;
+    }
+
+    #etr {
+        padding: 0 15px;
+        margin: 20px 0;
+    }
+
+    .rrr-txt {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   Below 576px
+   ========================================================= */
+
+@media (max-width: 575px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    /* HEADER */
+
+    .logo img {
+        max-width: 130px;
+    }
+
+    .txt ul {
+        gap: 8px 12px;
+    }
+
+    .txt li {
+        font-size: 13px;
+    }
+
+
+    /* BANNER */
+
+    #banner {
+        min-height: 570px;
+    }
+
+    .banner-txt {
+        padding: 0 15px;
+    }
+
+    .banner-txt h1 {
+        font-size: 34px;
+        padding-top: 80px;
+    }
+
+    .banner-txt h2 {
+        font-size: 40px;
+    }
+
+    .banner-txt p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .banner-txt button {
+        padding: 13px 25px;
+        font-size: 14px;
+    }
+
+
+    /* ABOUT */
+
+    .abo-txt h2 {
+        font-size: 32px;
+    }
+
+    .abo-txt p {
+        font-size: 15px;
+    }
+
+
+    /* GALLERY */
+
+    .gal-txt h2 {
+        font-size: 32px;
+    }
+
+    .gal-txt p {
+        font-size: 15px;
+    }
+
+    .us-img i,
+    .so-img i,
+    .to-img i {
+        margin-left: -55px;
+        margin-top: 100px;
+        font-size: 35px;
+    }
+
+
+    /* SERVICES */
+
+    .banner1-txt h2 {
+        font-size: 32px;
+    }
+
+    .rr-txt {
+        max-width: 100%;
+    }
+
+
+    /* TESTIMONIAL */
+
+    .tee-txt h2 {
+        font-size: 32px;
+    }
+
+    .tee-txt2 {
+        padding: 15px;
+    }
+
+    .tee-txt2::before,
+    .tee-txt2::after {
+        height: 100px;
+        width: 35px;
+    }
+
+    .tee-txt2 h3 {
+        padding-left: 45px;
+    }
+
+    .tee-txt2 p {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+
+
+    /* CONTACT */
+
+    #rom h2 {
+        font-size: 32px;
+    }
+
+    .top-img {
+        min-height: 500px;
+    }
+
+    form input {
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 13px 20px;
+    }
+
+    .mp iframe {
+        height: 350px;
+    }
+
+
+    /* FOOTER */
+
+    .meow-txt p,
+    .meow3-txt p {
+        font-size: 14px;
+    }
+
+    .meow4-txt li {
+        font-size: 15px;
+    }
+
+}
